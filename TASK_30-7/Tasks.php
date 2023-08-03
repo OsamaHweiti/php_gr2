@@ -17,17 +17,16 @@
     // task 4
     
     echo 'User IP Address - '.$_SERVER['REMOTE_ADDR'] . "<br>";  
-   
+    echo   $_SERVER["SCRIPT_NAME"] . '<br>';
     // task 5
  
-    echo   $_SERVER["SCRIPT_NAME"] . '<br>';
-    
-    //task 6
-    $url = 'https://www.w3schools.com/php/default.asp';
-    var_dump(parse_url($url));
-    var_dump(parse_url($url, PHP_URL_SCHEME));
+ $url = 'https://www.w3schools.com/php/default.asp';
+ 
+//task 6
+var_dump(parse_url($url));
+var_dump(parse_url($url, PHP_URL_SCHEME));
 // task 7
-    echo '<span style="color:red">P</span>HP Tutorial';
+    echo 'hw';
     
     
  
