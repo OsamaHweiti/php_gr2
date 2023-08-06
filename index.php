@@ -27,7 +27,7 @@ var_dump(parse_url($url));
 var_dump(parse_url($url, PHP_URL_SCHEME));
 // task 7
     echo 'hw';
-    //tsk 8
+    
     
  
 ?>
